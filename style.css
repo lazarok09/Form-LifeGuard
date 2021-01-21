@@ -15,7 +15,8 @@ body {
   height: 100vh;
 }
 .section-image {
-  margin: auto;
+  margin-top: 1px;
+  margin-left: 100px;
   width: 100vh;
   align-self: center;
   display: flex;
