@@ -10,5 +10,5 @@
 
 
 <p>
- Esse é mais um projeto simples com HTML CSS e JS. Não verás aqui um trabalho magnífico porém a lógica de se criar um formulário e este não ser perdido caso a página recarregue utilizando os recursos de LocalStorage e onblur são devidamente úteis.
+ Esse é mais um projeto simples com HTML CSS e JS. Não verás aqui um trabalho magnífico porém a lógica de se criar um formulário e este não ser perdido caso a página recarregue utilizando os recursos de LocalStorage e onblur são devidamente úteis. Acesse o link disponibilizado no canto superior direito desse mesmo repositório.
 </p>
