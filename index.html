@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/htmlicon.png"/>
+    	<!-- Bootstrap and JQUERY -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script  script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- Bootstrap end -->
+
   </head>
   <body onload="getData()">
         <main class="container">
@@ -29,15 +36,44 @@
               <div>
                 <label for="formulario_input3">LinkedIn</label>
                 <input type="url" name="input" id="formulario_input3" onblur="keepOnStorage()">
-              </div><br>
-             
-                <buton onclick="clearStorage()" class="botao">Limpar</buton>
-                <button type="submit" class="botao">Enviar</button>
+              </div>
+              <!-- botoes -->
+              <div class="botoes" id="botao-limpar">
+                  <buton onclick="clearStorage()" class="botao botao-limpar">Limpar</buton>
+              </div>  
+
+              <div class="botoes">
+                <input onclick="runModal()" class="botao botao-enviar" value="Enviar"></input>
+              </div>
+           
             </form>
-            
+              
+                
           </section>
-          
+                    <!-- inicio do modal-->
+              <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-title"><!-- titiulo --></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id="modal-body">
+                      <!-- corpo-->
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn"  id="modal-footer" data-dismiss="modal"><!-- botao de saida --></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fim modal erro-->
+            
+            
         </main>
+    
         <script src="./javascript.js"></script>
   </body>
 </html>
