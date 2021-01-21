@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f8f1f1;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.items {
+  flex-wrap: wrap;
+}
+.items input {
+  border-radius: 8px;
+  background: rgb(240, 240, 240);
+  border-color: rgb(167, 3, 167);
+  font-size: 20px;
+}
+label {
+  margin-right: 100%;
+  line-height: 1.5;
+  color: #737380;
+  font-size: 1.1em;
+  font-family: "Potta One";
+}
+
+.botao:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+.botao {
+  border-radius: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+
+  transition: color, background-color, 1s;
+}
+.botoes input {
+  margin-top: 10px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  color: white;
+  background: black;
+  text-align: center;
+}
+.formulario {
+  width: 220px;
+}
+#botao-limpar {
+  background: purple;
+}
+
+/* media query */
+
+@media (min-width: 520px) {
+  img {
+    display: block;
+    width: 50%;
+    height: 30%;
+  }
+
+  img {
+    width: 340px;
+  }
+}
+@media (min-width: 300.98px) and (max-width: 520px) {
+  .container {
+    width: 340px;
+  }
+  img {
+    display: none;
+  }
+  .botoes input {
+    width: 100px;
+    height: 40px;
+  }
+  .items input {
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    font-size: 2.2em;
+    border: none;
+  }
+  label {
+    line-height: 1.2;
+    color: #0788d3;
+    font-size: 1.2em;
+    font-family: "Potta One";
+  }
+}
+/* media query end */
