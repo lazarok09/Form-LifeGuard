@@ -19,7 +19,12 @@
     <img alt="imagem da tela em displays grandes como computadores e laptops" title="no desktop" src="assets/desktop.png">
     <img alt="imagem das tela no dispositivo móvel" title="no mobile" src="assets/onmobile.png">
 </p>
-                                                                    
+<span align=center><b>Veja aqui no YouTube uma prévia</b> ->
+ 
+[![LIFEGUARD DEMONSTRAÇÃO NO YOUTUBE](https://img.youtube.com/vi/NCf6EC9SiEQ/0.jpg)](https://www.youtube.com/watch?v=NCf6EC9SiEQ)
+
+</span>
+ 
 # Tecnologias e frameworks
 ## Front end :memo:
 - HTML
