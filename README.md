@@ -1,14 +1,41 @@
-<h1 align=center>Form Life Guard :rose:</h1>
-<span align=center>
-  
-[![NPM](https://img.shields.io/npm/l/react?color=red&style=plastic)](https://github.com/lazarok09/Form-LifeGuard/blob/main/LICENSE?)
 
-</span>
+<h1 align=center>Form Life Guard :rose:</h1>
 <h2 align=center>
  Do que se trata? 
 </h2>
 
+<span align=center>
+
+[![NPM](https://img.shields.io/npm/l/react?color=red&style=plastic)](https://github.com/lazarok09/Form-LifeGuard/blob/main/LICENSE?)
+
+</span>
 
 <p>
- Esse é mais um projeto simples com HTML CSS e JS. Não verás aqui um trabalho magnífico porém a lógica de se criar um formulário e este não ser perdido caso a página recarregue utilizando os recursos de LocalStorage e onblur são devidamente úteis. Acesse o link disponibilizado no canto superior direito desse mesmo repositório.
+ <h3>Esse é mais um projeto simples com HTML CSS e JS e sua finalidade é ter um formulário que não tenha os dados perdidos ao recarregar a página, como geralmente acontece na web.</h3>
 </p>
+
+<h2 align=center>Telas</h2>
+<p align="center">
+    <img alt="imagem da tela em displays grandes como computadores e laptops" title="no desktop" src="assets/desktop.png">
+    <img alt="imagem das tela no dispositivo móvel" title="no mobile" src="assets/onmobile.png">
+</p>
+                                                                    
+# Tecnologias e frameworks
+## Front end :memo:
+- HTML
+- CSS
+- Javascript
+- BOOTSTRAP 4
+
+# Como executar o projeto
+## Clonar o repositório na sua máquina. 
+#### Em seguida startar a aplicação no clicando dublo em index.html 
+# Autor
+Lazaro Jose da Silva de Souza <br>
+Estudante de Análise e Desenvolvimento de Sistemas pela UNINABUCO na modalidade EAD<br>
+Entusiasta na arte de aprender algo do zero<br>
+https://www.linkedin.com/in/lazarok09
+## Aprenda a usar o [markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open) no seu GitHub
+## Use [emojis](https://github.com/ikatyang/emoji-cheat-sheet) no seu readme :P
+
+< / :heart: >
