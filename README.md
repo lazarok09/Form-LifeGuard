@@ -1,7 +1,7 @@
 <h1 align=center>Form Life Guard :rose:</h1>
 <span align=center>
   
-![GitHub](https://img.shields.io/github/license/LAZAROK09/HTML5?color=blue&style)
+[![NPM](https://img.shields.io/npm/l/react?color=red&style=plastic)](https://github.com/lazarok09/Form-LifeGuard/blob/main/LICENSE?)
 
 </span>
 <h2 align=center>
@@ -10,5 +10,5 @@
 
 
 <p>
- Esse é mais um projeto simples com HTML CSS e JS. Não verás aqui um trabalho magnífico porém a lógica de se criar um formulário e este não ser perdido caso a página recarregue utilizando os recursos de LocalStorage e onblur são devidamente úteis.
+ Esse é mais um projeto simples com HTML CSS e JS. Não verás aqui um trabalho magnífico porém a lógica de se criar um formulário e este não ser perdido caso a página recarregue utilizando os recursos de LocalStorage e onblur são devidamente úteis. Acesse o link disponibilizado no canto superior direito desse mesmo repositório.
 </p>
