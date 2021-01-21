@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <title>Local Storage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/htmlicon.png"/>
+  </head>
+  <body onload="getData()">
+        <main class="container">
+          <section class="section-image">
+            <img src="./assets/push.jpg" />
+            <form class="formulario">
+              
+              <div class="nome">
+                <label for="formulario_input">Nome</label>
+                <input type="text" required name="input" id="formulario_input" onblur="keepOnStorage()">
+              </div>
+              
+              <div>
+                <label for="formulario_input2">GitHub</label>
+                <input type="url" required id="formulario_input2" onblur="keepOnStorage()">
+              </div>
+              
+              <div>
+                <label for="formulario_input3">LinkedIn</label>
+                <input type="url" name="input" id="formulario_input3" onblur="keepOnStorage()">
+              </div><br>
+             
+                <buton onclick="clearStorage()" class="botao">Limpar</buton>
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+            
+          </section>
+          
+        </main>
+        <script src="./javascript.js"></script>
+  </body>
+</html>
